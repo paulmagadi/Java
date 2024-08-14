@@ -132,16 +132,75 @@ public class Main {
 //     }
 // }
 
+// public class Main {
+//   public static void main(String[] args) {
+//     int result = sum(10);
+//     System.out.println(result);
+//   }
+//   public static int sum(int k) {
+//     if (k > 0) {
+//       return k + sum(k - 1);
+//     } else {
+//       return 0;
+//     }
+//   }
+// }
+
+
+// Use recursion to add all of the numbers between 5 to 10.
+
+// public class Main {
+//   public static void main(String[] args) {
+//     int result = sum(5, 10);
+//     System.out.println(result);
+//   }
+//   public static int sum(int start, int end) {
+//     if (end > start) {
+//       return end + sum(start, end - 1);
+//     } else {
+//       return end;
+//     }
+//   }
+// }
+
+Result Size: 625 x 396
 public class Main {
-  public static void main(String[] args) {
-    int result = sum(10);
-    System.out.println(result);
+ 
+  // Create a fullThrottle() method
+  public void fullThrottle() {
+    System.out.println("The car is going as fast as it can!");
   }
-  public static int sum(int k) {
-    if (k > 0) {
-      return k + sum(k - 1);
-    } else {
-      return 0;
-    }
+
+  // Create a speed() method and add a parameter
+  public void speed(int maxSpeed) {
+    System.out.println("Max speed is: " + maxSpeed);
+  }
+
+  // Inside main, call the methods on the myCar object
+  public static void main(String[] args) {
+    Main myCar = new Main();     // Create a myCar object
+    myCar.fullThrottle();      // Call the fullThrottle() method
+    myCar.speed(200);          // Call the speed() method
   }
 }
+// Create a Main class
+public class Main {
+ 
+  // Create a fullThrottle() method
+  public void fullThrottle() {
+    System.out.println("The car is going as fast as it can!");
+  }
+​
+  // Create a speed() method and add a parameter
+  public void speed(int maxSpeed) {
+    System.out.println("Max speed is: " + maxSpeed);
+  }
+​
+  // Inside main, call the methods on the myCar object
+  public static void main(String[] args) {
+    Main myCar = new Main();     // Create a myCar object
+    myCar.fullThrottle();      // Call the fullThrottle() method
+    myCar.speed(200);          // Call the speed() method
+  }
+}
+​
